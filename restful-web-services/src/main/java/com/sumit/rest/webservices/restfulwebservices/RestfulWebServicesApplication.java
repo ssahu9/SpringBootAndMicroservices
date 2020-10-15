@@ -26,10 +26,5 @@ public class RestfulWebServicesApplication {
         r.setDefaultLocale(Locale.US);
         return r;
     }
-	@Bean
-	public ResourceBundleMessageSource bundleMessageSource() {
-		ResourceBundleMessageSource messageSource = new ResourceBundleMessageSource();
-		messageSource.setBasename("messages");
-		return 	messageSource;
-	}
+	
 }
